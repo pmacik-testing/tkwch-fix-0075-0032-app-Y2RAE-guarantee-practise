@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-mxug
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0032-tenant/tkwch-fix-0075-0032-app/devfile-sample-mxug@sha256:d2f59ad6f1f8bf85059da8c7669284ef58d5e0b7b04b544cce0dcfd296f09a8f
         name: my-nodejs
         ports:
         - containerPort: 3001
